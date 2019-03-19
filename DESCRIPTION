@@ -1,0 +1,18 @@
+Package: cQuantBatch
+Title: Retrieves generation asset data from database and converts to cQuant-friendly format
+Version: 0.0.0.9000
+Authors@R: person("Isaac", "Babani", email = "isaac.babani@talenenergy.com", role = c("aut", "cre"))
+Description: Retrieves generation asset data from database and converts to cQuant-friendly format.
+  Executes pre-compiled SQL stored procedures and returns various dataframes.
+  Dataframes are reformatted to match cQuant plant dispatch optimization (PDO) template requirements. 
+Depends: R (>= 3.5.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    tidyr,
+    dplyr,
+    DBI,
+    odbc,
+    stringr
+RoxygenNote: 6.1.1
